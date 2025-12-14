@@ -27,7 +27,7 @@ jobs:
 
       - name: Run ML Model Validation Tests
         run: |
-          pytest -v --html=reports/test_execution_report.html --self-contained-html
+          pytest -v --html=reports/ML_Model_Validation_Report.html --self-contained-html
 
       - name: Upload Test Report
         uses: actions/upload-artifact@v4
